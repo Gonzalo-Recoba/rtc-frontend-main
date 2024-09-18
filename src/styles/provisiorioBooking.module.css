@@ -1,0 +1,15 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas grandes */
+    gap: 1.6rem; /* Espacio entre las tarjetas */
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .gridContainer {
+      grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+  }
+  

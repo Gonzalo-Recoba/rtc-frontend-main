@@ -1,0 +1,22 @@
+/* styles.css */
+.material-react-table {
+    margin: 20px;
+  }
+  
+  .material-react-table .MuiButton-contained {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .material-react-table .MuiButton-contained:hover {
+    background-color: #45a049;
+  }
+  
+  .material-react-table .MuiTableCell-root {
+    padding: 10px;
+  }
+
+
+.button{
+  
+}

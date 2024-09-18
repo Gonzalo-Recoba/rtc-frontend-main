@@ -1,0 +1,56 @@
+@import '../index.css';
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: var(--background-card);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    min-width: 10rem;
+    max-width: 31.25rem;
+    width: 100%;
+    height: 27rem;
+    max-width: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem; 
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.textoModal{
+    display: flex;
+    gap: 2rem;
+    font-size: .7rem;
+    color: var(--boton-enable);
+}
+
+.spanRegister{
+    text-decoration: underline;
+}
+
+.registerText{
+    cursor: pointer;
+}

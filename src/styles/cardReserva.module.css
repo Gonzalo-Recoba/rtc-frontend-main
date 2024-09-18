@@ -1,0 +1,63 @@
+@import '../index.css';
+
+.card {
+  border: 0.1rem solid #ddd;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  padding: 1rem;
+  background-color: #FFFF; 
+  transition: transform 0.2s ease-in-out; 
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+
+.item strong {
+  color: #333;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 1.2rem;
+    max-width: 100%; 
+  }
+
+  .item {
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 50%; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    text-align: start;
+  }
+
+  .item {
+    margin-bottom: 1.5rem;
+  }
+  .hourBooking{
+    margin-left: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 40%; 
+    padding: 2.5rem;
+  }
+}

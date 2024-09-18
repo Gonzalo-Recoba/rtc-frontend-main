@@ -1,0 +1,19 @@
+@import '../index.css';
+
+.cardList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .cardList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        justify-items: center; 
+        column-gap: 0;
+    }
+}

@@ -1,0 +1,142 @@
+@import '../index.css';
+
+.cardIntegradorContainer {
+    width: 72vw;
+    box-shadow: 0px 3px 11px -2px rgba(0, 0, 0, 0.75);
+    background-color: var(--background);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageCancha {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    border-radius: 1.5625rem 1.5625rem 0 0;
+}
+
+.canchaInformation {
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleFav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titleFav h3 {
+    font-size: 1,5rem;
+}
+.deporte{
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--boton-pressed);
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--tipografia-ppal);
+}
+.direccion{
+    color: var(--boton-pressed);
+    align-self: flex-end;
+}
+.buttonVerMas {
+    display: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.linkDetail {
+    text-decoration: none;
+    color: var(--titulos-h2);
+    cursor: auto;
+}
+
+@media (min-width: 768px) {
+    .cardIntegradorContainer{
+        width: 20rem;
+    }
+    .buttonVerMas {
+        display: block;
+        align-self: flex-end;
+        border-radius: 1rem;
+        padding: 0.5rem 1.3rem;
+        background-color: var(--boton-enable);
+        border: none;
+    }
+    .canchaInformation {
+        margin: 2rem ;
+    }
+    .description{
+        margin-bottom: 0.5rem;
+    }
+    .direccion{
+        align-self: flex-start;
+    }
+    .canchaInformation {
+        margin: 1rem;
+    }
+    .buttonVerMas {
+        display: block;
+        align-self: flex-end;
+        border-radius: 1rem;
+        padding: 0.5rem 1.3rem;
+        background-color: var(--boton-enable);
+        color: var(--tipografia-ppal-dm);
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        cursor: pointer;
+    }
+    .buttonVerMas:hover{
+        background-color: var(--boton-hovered);
+    }
+    .buttonVerMas:active{
+        color: var(--boton-pressed);
+    }
+    .linkButton{
+        text-decoration: none;
+        align-self: flex-end;
+    }
+    .linkDetail{
+        height: 100%;
+    }
+}
+
+@media (min-width:1160px){
+    .cardIntegradorContainer {
+        flex-direction: row;
+        width: 35rem;
+        height: 15rem;
+    }
+    .imageCancha {
+        width: 18rem;
+        height: auto;
+        border-radius: 1.5625rem 0 0 1.5625rem;
+    }
+    .canchaInformation {
+        width: 100%;
+    }
+    .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal; /* Evita el scroll y permite las elipsis */
+    }
+}

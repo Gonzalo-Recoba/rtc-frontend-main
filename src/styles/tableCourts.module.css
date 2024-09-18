@@ -1,0 +1,35 @@
+
+
+
+.table{
+    margin: auto;
+    width: 75vw;
+    background: var(--background-card);
+    line-height: o%;
+}
+
+.tableHead{
+    border-collapse: collapse;
+}
+.tableHeadRow{
+   
+    
+}
+.tableHeadColumn{
+    
+}
+
+.tableBody{
+    
+}
+.tableBodyRow{
+    
+}
+.tableBodyColumn:nth-child(2){
+    width: 50px;
+}
+.tableBodyColumn:nth-child(5), .tableBodyColumn:nth-child(6){
+    width: 50px;
+    
+}
+

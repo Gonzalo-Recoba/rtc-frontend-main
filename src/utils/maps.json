@@ -1,0 +1,777 @@
+{
+    "results": [
+      {
+        "address_components": [
+          {
+            "long_name": "3746",
+            "short_name": "3746",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Rafael Hortiguera",
+            "short_name": "Rafael Hortiguera",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Rafael Hortiguera 3746, 12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "location": {
+            "lat": -34.855135,
+            "lng": -56.1718077
+          },
+          "location_type": "ROOFTOP",
+          "viewport": {
+            "south": -34.8564839802915,
+            "west": -56.1731566802915,
+            "north": -34.8537860197085,
+            "east": -56.1704587197085
+          }
+        },
+        "place_id": "ChIJuYG4rpwqoJURujJupMkRUMo",
+        "plus_code": {
+          "compound_code": "4RVH+W7 Montevideo, Departamento de Montevideo, Uruguay",
+          "global_code": "48Q54RVH+W7"
+        },
+        "types": [
+          "street_address"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "3744",
+            "short_name": "3744",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Rafael Hortiguera",
+            "short_name": "Rafael Hortiguera",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Rafael Hortiguera 3744, 12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8551705,
+            "west": -56.1718249,
+            "north": -34.8550953,
+            "east": -56.171707
+          },
+          "location": {
+            "lat": -34.8551395,
+            "lng": -56.17176980000001
+          },
+          "location_type": "ROOFTOP",
+          "viewport": {
+            "south": -34.8564818802915,
+            "west": -56.1731149302915,
+            "north": -34.8537839197085,
+            "east": -56.1704169697085
+          }
+        },
+        "place_id": "ChIJ5Sd6ZpsqoJURpAHSBfxyYLQ",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "3746",
+            "short_name": "3746",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Rafael Hortiguera",
+            "short_name": "Rafael Hortiguera",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Rafael Hortiguera 3746, 12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "location": {
+            "lat": -34.8552054,
+            "lng": -56.1718643
+          },
+          "location_type": "RANGE_INTERPOLATED",
+          "viewport": {
+            "south": -34.85655438029149,
+            "west": -56.17321328029149,
+            "north": -34.8538564197085,
+            "east": -56.1705153197085
+          }
+        },
+        "place_id": "Ek1SYWZhZWwgSG9ydGlndWVyYSAzNzQ2LCAxMjMwMCBNb250ZXZpZGVvLCBEZXBhcnRhbWVudG8gZGUgTW9udGV2aWRlbywgVXJ1Z3VheSIbEhkKFAoSCekJvWabKqCVEdvs_O7lnBQkEKId",
+        "types": [
+          "street_address"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "3739-3697",
+            "short_name": "3739-3697",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Rafael Hortiguera",
+            "short_name": "Rafael Hortiguera",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Rafael Hortiguera 3739-3697, 12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8553527,
+            "west": -56.17225000000001,
+            "north": -34.8551206,
+            "east": -56.1711938
+          },
+          "location": {
+            "lat": -34.8552367,
+            "lng": -56.17172189999999
+          },
+          "location_type": "GEOMETRIC_CENTER",
+          "viewport": {
+            "south": -34.8565856302915,
+            "west": -56.1730708802915,
+            "north": -34.8538876697085,
+            "east": -56.17037291970851
+          }
+        },
+        "place_id": "ChIJ6Qm9ZpsqoJUR2uz87uWcFCQ",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "4RVH+W7",
+            "short_name": "4RVH+W7",
+            "types": [
+              "plus_code"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "4RVH+W7 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.85525,
+            "west": -56.171875,
+            "north": -34.855125,
+            "east": -56.17175
+          },
+          "location": {
+            "lat": -34.8551915,
+            "lng": -56.1718641
+          },
+          "location_type": "GEOMETRIC_CENTER",
+          "viewport": {
+            "south": -34.8565364802915,
+            "west": -56.1731614802915,
+            "north": -34.8538385197085,
+            "east": -56.1704635197085
+          }
+        },
+        "place_id": "GhIJmShC6nZtQcARoW2QpP8VTMA",
+        "plus_code": {
+          "compound_code": "4RVH+W7 Montevideo, Departamento de Montevideo, Uruguay",
+          "global_code": "48Q54RVH+W7"
+        },
+        "types": [
+          "plus_code"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "Cerrito",
+            "short_name": "Cerrito",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "formatted_address": "Cerrito, 12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8626409,
+            "west": -56.1815285,
+            "north": -34.8358922,
+            "east": -56.1590195
+          },
+          "location": {
+            "lat": -34.8534948,
+            "lng": -56.1728275
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.8626409,
+            "west": -56.1815285,
+            "north": -34.8358922,
+            "east": -56.1590195
+          }
+        },
+        "place_id": "ChIJ1StYDI8qoJURxPwaC9YmdGI",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "Limites Seccional 12 de Policia",
+            "short_name": "Limites Seccional 12 de Policia",
+            "types": [
+              "political"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "Limites Seccional 12 de Policia, Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8713908,
+            "west": -56.1975038,
+            "north": -34.8330212,
+            "east": -56.1445034
+          },
+          "location": {
+            "lat": -34.8470362,
+            "lng": -56.175619
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.8713908,
+            "west": -56.1975038,
+            "north": -34.8330212,
+            "east": -56.1445034
+          }
+        },
+        "place_id": "ChIJxRyTxJoqoJURD08xyY_kCww",
+        "types": [
+          "political"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "12300",
+            "short_name": "12300",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "12300 Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8630434,
+            "west": -56.18875689999999,
+            "north": -34.7893481,
+            "east": -56.1360196
+          },
+          "location": {
+            "lat": -34.823963,
+            "lng": -56.1644535
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.8630434,
+            "west": -56.18875689999999,
+            "north": -34.7893481,
+            "east": -56.1360196
+          }
+        },
+        "place_id": "ChIJgVDAsf0qoJUR7B1zpy9e11Q",
+        "types": [
+          "postal_code"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "D",
+            "short_name": "D",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "D, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.8819768,
+            "west": -56.1939226,
+            "north": -34.7138173,
+            "east": -56.0879298
+          },
+          "location": {
+            "lat": -34.7844541,
+            "lng": -56.14770770000001
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.8819768,
+            "west": -56.1939226,
+            "north": -34.7138173,
+            "east": -56.0879298
+          }
+        },
+        "place_id": "ChIJJbQjRbkroJUR8Iun3LjTjHo",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "Montevideo",
+            "short_name": "Montevideo",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "Montevideo, Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.9380585,
+            "west": -56.3770277,
+            "north": -34.7308398,
+            "east": -56.0179155
+          },
+          "location": {
+            "lat": -34.9055016,
+            "lng": -56.1851147
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.9380585,
+            "west": -56.3770277,
+            "north": -34.7308398,
+            "east": -56.0179155
+          }
+        },
+        "place_id": "ChIJ0_c7xv-An5URmexbNS4bMms",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "Departamento de Montevideo",
+            "short_name": "Departamento de Montevideo",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "Departamento de Montevideo, Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -34.9381065,
+            "west": -56.4315137,
+            "north": -34.7018175,
+            "east": -56.0236491
+          },
+          "location": {
+            "lat": -34.8181587,
+            "lng": -56.2138256
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -34.9381065,
+            "west": -56.4315137,
+            "north": -34.7018175,
+            "east": -56.0236491
+          }
+        },
+        "place_id": "ChIJ0_c7xv-An5URZKZVcui9b2g",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "address_components": [
+          {
+            "long_name": "Uruguay",
+            "short_name": "UY",
+            "types": [
+              "country",
+              "political"
+            ]
+          }
+        ],
+        "formatted_address": "Uruguay",
+        "geometry": {
+          "bounds": {
+            "south": -35.1558001,
+            "west": -58.4913609,
+            "north": -30.0852149,
+            "east": -53.0779284
+          },
+          "location": {
+            "lat": -32.522779,
+            "lng": -55.765835
+          },
+          "location_type": "APPROXIMATE",
+          "viewport": {
+            "south": -35.1558001,
+            "west": -58.4913609,
+            "north": -30.0852149,
+            "east": -53.0779284
+          }
+        },
+        "place_id": "ChIJCd5f-zoHdZURSlIWYGGWVUo",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "plus_code": {
+      "compound_code": "4RVH+W7C Montevideo, Departamento de Montevideo, Uruguay",
+      "global_code": "48Q54RVH+W7C"
+    }
+  }

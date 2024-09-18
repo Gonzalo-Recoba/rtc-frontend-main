@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.5;
+}
+body{
+  background-color: var(--background);
+}
+
+:root {
+  
+  /* Paleta de colores para fondos para el sitio y las cards en light mode y en dark mode (dm): */
+    --background: #EBF7EF;
+    --background-dm: #061B18;
+
+    --background-card: #DEFFEA;
+    --background-card-dm: #0A2824;
+
+  /* Paleta de colores para botones: */
+    /* Light Mode: */
+      --boton-enable: #00A991;
+      --boton-hovered: #009883;
+      --boton-pressed: #007F6D;
+      --boton-disabled: #B0E4DD;
+      --boton-disabled-service: #a09292;
+
+    /* Dark Mode: */
+      --boton-enable-dm: #EBF7EF;
+      --boton-hovered-dm: #849B8B;
+      --boton-pressed-dm: #EBF7EF;
+      --boton-disabled-dm: #3E4340;
+
+  /* Paleta de colores para tipografia: */
+    --tipografia-ppal: #363636;
+    --tipografia-ppal-dm:#DFDFDF;
+    --titulos-h2:#004C41;
+    --titulos-h2-dm:#CFFFF8;
+    --parrafo-dm:#D9D9D9;
+    
+    /* Esilos para footer */
+    --background-footer: #0A2824;
+    --text-footer: #00A991;
+
+    --background-gradient: linear-gradient(180deg, #E9FFF0 0%, #EFFFF4 50%, #ECFFF2 100%);
+
+}
+
+.dark{
+  
+  --background-dm: #061B18;
+  --background-card-dm: #0A2824;
+
+  --tipografia-ppal-dm:#DFDFDF;
+  --titulos-h2-dm:#CFFFF8;
+  --parrafo-dm:#D9D9D9;
+
+  /* Botones Dark Mode: */
+    --boton-enable-dm: #EBF7EF;
+    --boton-hovered-dm: #849B8B;
+    --boton-pressed-dm: #EBF7EF;
+    --boton-disabled-dm: #3E4340;
+
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}

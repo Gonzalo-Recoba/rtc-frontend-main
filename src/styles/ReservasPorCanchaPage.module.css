@@ -1,0 +1,15 @@
+.containerCardsReservas{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    flex-direction: column;
+}
+.tituloReserva{
+    text-align: center;
+}
+
+@media (min-width:600px){
+    .containerCardsReservas{
+        flex-direction: row;
+    }
+}

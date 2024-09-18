@@ -1,0 +1,47 @@
+.panelAdminContainer{
+    width: 90vw;
+    margin: auto;
+    border-radius: 25px 25px 0px 0px;
+    padding: 2rem;
+
+}
+
+.title{
+    text-align: center;
+    color: var(--titulos-h2);
+}
+.subtitle{
+    text-align: center;
+    color: var(--titulos-h2);
+}
+
+
+.buttonCreateCourt{
+    color: red;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: var(--boton-enable);
+    color: var(--background-card);
+    font-size: 1.2rem;
+    font-weight: 300;
+    align-items: center;
+    /*width: 138px;
+    */height: 40px;
+    gap: 12px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 10px 2vw;
+    padding:  15px;
+}

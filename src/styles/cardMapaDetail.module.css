@@ -1,0 +1,123 @@
+.cardMapaDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+
+.mapa {
+    border: 0;
+    height: 10rem; 
+    border-radius: 1.5625rem;
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+.infoMapaContainer .price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--boton-pressed);
+}
+.linkReserva{
+    text-decoration: none;
+}
+.buttonMapaDetailContainer {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    gap: 3rem; 
+    margin-top: 1.5rem;
+}
+.buttonMapaDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    gap: .5rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    background-color: var(--boton-enable);
+    color: white;
+    border: 0;
+    cursor: pointer; /* Añadido para indicar que es clickeable */
+    text-decoration: none;
+}
+
+.buttonMapaDetail:hover {
+    background-color: var(--boton-hovered);
+}   
+
+.buttonMapaDetail:active {
+    background-color: var(--boton-pressed);
+}
+
+
+.buttonDisabled {
+    background-color: var(--boton-disabled);
+    cursor: not-allowed;
+    /* Añadido para que el botón no se vea clickeable */
+    opacity: 0.6;
+}
+
+.buttonDisabled:hover {
+    background-color: var(--boton-disabled);
+}
+
+.iconButtonDetail {
+    margin-left: 1rem;
+}
+
+@media (max-width: 480px) {
+    .buttonMapaDetailContainer {
+        gap: 1.5rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .cardMapaDetailContainer {
+        background-color: var(--background-card);
+        width: 22rem;
+        padding-bottom: 1rem;
+        border-radius: 1.5rem;
+
+}
+    .mapa {
+        width: 100%;
+        height: 17rem;
+        border-radius: 1.5rem 1.5rem 0 0;
+}
+    .buttonMapaDetailContainer {
+        margin-top: .5rem;
+    }
+}
+
+
+
+@media (min-width: 950px) {
+ 
+    .cardMapaDetailContainer {
+        display: flex;
+        margin: 1rem;
+        padding-bottom: 1rem;
+        width: 50%;
+        justify-self: end;
+        align-self: end;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    }
+    /* .mapa{
+        height: 50%;
+    } */
+
+    .buttonMapaDetailContainer {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1260px){
+    .cardMapaDetailContainer{
+        right: 5rem;
+    }
+}

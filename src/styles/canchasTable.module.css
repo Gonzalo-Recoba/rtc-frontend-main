@@ -1,0 +1,25 @@
+.tableRow:hover{
+    background-color: gray;
+    color: white;
+  }
+  .tableRow td{
+    border: none;
+  }
+
+  .button{
+      background-color: var(--boton-enable);
+      color: var(--background-card);
+      font-size: 1.2rem;
+      font-weight: 300;
+      align-items: center;
+      /* width: 138px; */
+      height: 40px;
+      gap: 12px;
+      border-radius: 16px;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      margin: 2vw;
+  }

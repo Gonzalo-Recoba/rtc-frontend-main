@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container-estetica {
+  display: grid;
+  height: 100vh;
+  width: 80vw;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.imagen {
+  background-image: url("https://www.mdzol.com/u/fotografias/m/2021/11/9/f848x477-1133785_1191588_3362.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.reserva-app-container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seccion {
+  display: none;
+}
+
+.seccion:first-of-type {
+  display: block;
+}
+
+.seccion-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #004C41;
+}
+
+.seccion-text {
+  font-size: 1rem;
+  line-height: 1;
+  color: #363636;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group label {
+  width: 100px;
+}
+
+.form-group input {
+  width: 70%;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px; /* Bordes redondeados para el modal */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para el modal */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hours-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.hour-button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.hour-button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.hour-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

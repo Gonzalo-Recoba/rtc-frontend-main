@@ -1,0 +1,88 @@
+@import '../index.css';
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.inputModal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputField {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border: none;
+    border-bottom: 2px solid var(--boton-enable);
+    outline: none;
+    font-size: 1rem;
+    background-color: var(--background-card)
+}
+
+.inputIcon {
+    position: absolute;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.inputField::placeholder {
+    color: var(--boton-enable);
+    font-size: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.loginButton{
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    background-color: var(--boton-enable);
+    border: 0;
+    border-radius: 1rem;
+    font-size: 1rem;  
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #DFDFDF;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: var(--boton-hovered);
+}
+.loginButton:active{
+    background-color: var(--boton-pressed);
+}
+
+.rolForm{
+    color: var(--boton-enable);
+    text-decoration: underline;
+}
+
+@media (min-width:768px){
+    .loginButton{
+        width: 150%;
+    }
+}

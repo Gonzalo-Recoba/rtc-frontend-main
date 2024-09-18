@@ -1,0 +1,222 @@
+@import '../index.css';
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 5%;
+    width: 100vw;
+}
+
+.inputModal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.imagesContainer{
+    position: relative;
+}
+.imageDetail:hover{
+    transform: scale(1.2);
+    z-index: 100;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.buttonDeleteImage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonDeleteImage:hover{
+    color: red;
+}
+.buttonDownloadImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonDownloadImage:hover{
+    color: green;
+}
+.inputField {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border: none;
+    border-bottom: 2px solid var(--boton-enable);
+    outline: none;
+    font-size: 1rem;
+    background-color: var(--background-card)
+}
+.inputDescripcion{
+    height: 150px;
+}
+.parrafo{
+    color: var(--boton-enable);
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+
+.inputIcon {
+    position: absolute;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.inputField::placeholder {
+    color: var(--boton-enable);
+    font-size: 1rem;
+}
+.inputsHorarios{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
+.inputApertura, .inputCierre{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputApertura input, .inputCierre input{
+    width: 50%;
+    padding: .5rem;
+}
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+.buttonsContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cancelButton, .submitButton{
+    width: 30%;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 5%;
+    background-color: var(--boton-enable);
+    border: 0;
+    border-radius: 1rem;
+    font-size: 1rem;  
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #DFDFDF;
+    cursor: pointer;
+}
+
+
+
+.loginButton:hover{
+    background-color: var(--boton-hovered);
+}
+.loginButton:active{
+    background-color: var(--boton-pressed);
+}
+
+.rolForm{
+    color: var(--boton-enable);
+    text-decoration: underline;
+}
+.parrafo{
+    text-align: left;
+    font-size: 1.1rem;
+}
+label{
+    width: 30%;
+}
+.select{
+    border: none;
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border-bottom: 2px solid var(--boton-enable);
+    outline: none;
+    font-size: 1rem;
+    background-color: var(--background-card);
+    /* margin-left: 10px; */
+    color: var(--boton-pressed);
+}
+.option{
+    background-color: var(--background-card);
+    color: var(--boton-pressed);
+}
+.labelCheck, .label{
+    color: var(--boton-enable);
+    width: 50%;
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+.checkbox:checked{
+    accent-color: var(--boton-pressed);
+}
+
+.horario{
+    border: none;
+    border-bottom: solid 1px var(--boton-pressed);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: var(--boton-pressed);
+}
+.labelImages{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    color: var(--boton-enable);
+    /* width: 50%; */
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+.labelImages .icon{
+    margin-left: 5%;
+    font-size: 3rem;
+}
+
+.inputImages{
+    display: none;
+}
+.image{
+    width: 10%;
+}
+
+@media (min-width:768px){
+    .containerForm{
+        width: 75vw;
+    }
+    .label{
+        width: 30%;
+    }
+    .inputsHorarios{
+        flex-direction:row;
+    }
+    .inputCierre{
+        margin-left: 1rem;
+    }
+    .loginButton{
+        width: 150%;
+    }
+}

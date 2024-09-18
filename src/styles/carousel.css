@@ -1,0 +1,109 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Oculta el desbordamiento */
+    position: relative;
+    width: 100vw; /* Ancho completo */
+    height: 70vh; /* Altura del carrusel */
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease; /* Transición suave entre imágenes */
+    width: 100vw;
+    height: 100%;
+  }
+  
+  .card-item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw; /* Ancho máximo para tarjetas */
+  }
+  
+  .card-image {
+    width: 100vw;
+    height: auto;
+    object-fit: cover; 
+    height: 100%;
+  }
+  
+  /* Estilos del botón */
+  .link-button {
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  .button-ver-mas {
+    background-color: #00A991; /* Fondo oscuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  
+  /* Estilos del botón siguiente */
+  .next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos de los puntos de seguimiento */
+  .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color:  #00A991; /* Color de los puntos */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: white; 
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .carousel {
+      height: 40vh; /* Reduce la altura en pantallas pequeñas */
+    }
+    
+    .card-title {
+      font-size: 1.2em; /* Tamaño de fuente del título en pantallas pequeñas */
+    }
+  
+    .card-description {
+      font-size: 0.9em; /* Tamaño de fuente de la descripción en pantallas pequeñas */
+    }
+
+  }
+  
+  /* @media(min-width: 950px){
+    
+    .carousel-images{
+      height:40vh;
+      width: 70vw;
+    }
+  } */

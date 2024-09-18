@@ -1,0 +1,211 @@
+.cardDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 3rem;
+    padding: 5%;
+}
+
+
+.imageAndText {
+    color: var(--boton-enable);
+}
+
+.title{
+    color: var(--titulos-h2);
+}
+.subtitle{
+    color: var(--titulos-h2);
+    margin-top: 0.3rem;
+}
+
+
+.informacionCardDetailConImagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.informacionCardDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.caracteristicasContainer {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.caracteristicasContainer img {
+    width: 1.5rem;
+}
+
+
+
+.descripcionDetail {
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+    max-width: 20rem;
+    color: var(--tipografia-ppal);
+}
+
+.backgroundCardDetail {
+    display: none;
+}
+
+.textoDetailCategoria {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .imageAndText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .textoDetailCategoria {
+        display: inline;
+    }
+
+    .shower {
+        height: 1.4rem;
+    }
+
+  
+    .descripcionDetail {
+        width: 100%;
+        max-width: 50rem;
+    }
+    .informacionCardDetail {
+
+        max-width: 70%;
+    }
+
+    .containerInfoCardDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 950px) {
+    .cardDetailContainer {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+        padding: 1.5rem;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.55);
+        background-color: var(--background-gradient);
+        align-items: start;
+
+    }
+    .carouselCardItem{
+        grid-row: span 2;
+        margin-right: 5%;
+    }
+
+    .cardMapaDetailContainer{
+        grid-column: 2;
+    }
+
+    .title, .subtitle{
+        text-align:start ;
+    }
+    .imageDetailContainer {
+        max-width: 20rem;
+        margin-right: 2rem;
+        margin-left: 2rem; 
+    }
+    .informacionCardDetailConImagen {
+        flex-direction: column; 
+        align-items: flex-start;
+        width: 100%;
+    }
+    .containerInfoCardDetail {
+        align-items: start;
+    }
+    .informacionCardDetail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .descripcionDetail{
+        text-align: justify;
+    }
+
+    .caracteristicasContainer {
+        order: 1;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 0;
+        width: 100%;
+        flex-grow: 1;
+    }
+    .textoDetailCategoria {
+        font-size: 12px;
+    }
+
+    .imageAndText {
+        flex-direction: column;
+        border: 0.1px solid var(--boton-disabled);
+        padding: 1.1% 0 1.1% 0;
+        border-radius: 1rem;
+        flex-grow: 1;
+        cursor:help ;
+        align-items: center;
+        justify-content: center;
+    }
+    .backgroundCardDetail {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.55);
+        z-index: -1;
+        height: 30rem;
+        display: inline;
+    }
+
+
+
+}
+@media (min-width:1100px){
+    .cardDetailContainer{
+        justify-content: initial;
+    }
+    .descripcionDetail{
+        align-self: self-start;
+        max-width: 50rem;
+        text-align: start;
+    }
+    .textoDetailCategoria {
+        display: inline;
+    }
+    .imageDetailContainer{
+        margin-left: 10vw;
+    }
+}
+@media (min-width:1260px){
+
+    .descripcionDetail{
+        text-align: justify;
+    }
+}

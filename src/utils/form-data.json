@@ -1,0 +1,39 @@
+{
+    "pitchName": "Club Leyenda",
+    "pitchDescription": "Esta cancha de fútbol 5 y futsal profesional, con piso de cemento, es perfecta para entrenamientos y partidos, especialmente diseñada para niños pequeños que están comenzando en el fútbol. Ofrece un entorno seguro con protecciones de colchonetas en los laterales, minimizando el riesgo de lesiones, y cuenta con gradas cómodas para que los espectadores puedan disfrutar de los encuentros.",
+    "pitchPricePerHour": 15000,
+    "idSport": 1,
+    "pitchLocation": "Villa Devoto",
+    "pitchAddress": "Pedro Morán 4349, C1419HLE Cdad. Autónoma de Buenos Aires, Argentina",
+    "pitchMapUrl": {
+      "mapUrl": "https://maps.google.com/?q=-34.60387195973305,-58.514271334609724&z=14&output=embed",
+      "mapLatitude": "-34.60387195973305",
+      "mapLongitude": "-58.514271334609724"
+    },
+    "idSurface": 7,
+    "schedules": [
+      {
+        "idDay": 2,
+        "open": {
+          "hour": 10,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        },
+        "close": {
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      }
+    ],
+    "idServices": [1],
+    "images": [
+      "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
+      "https://i.blogs.es/e361ec/sandro-schuh-hgwy_yq1m0w-unsplash/1200_800.webp",
+      "https://cdn.pixabay.com/photo/2020/02/09/11/14/youth-football-4832719_1280.jpg",
+      "https://www.mdzol.com/u/fotografias/m/2021/11/9/f848x477-1133785_1191588_3362.jpg"
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+@import '../index.css';
+
+.footerContainer{
+    background-color: var(--background-footer);
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    max-height: auto;
+}
+.topContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.socialNetworks{
+    display: flex;
+    gap: .44rem;
+    align-self: center;
+    margin-right: 1.63rem;
+}
+.logoFooter{
+    margin-left: .87rem;
+}
+.copyright{
+    text-align: center;
+    color: var(--text-footer);
+}

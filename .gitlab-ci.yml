@@ -1,0 +1,63 @@
+stages:
+  - lint
+  - test
+  - build
+  - deploy
+  - notification
+lint:
+  image: node:20
+  stage: test
+  before_script: 
+  - npm install 
+  script:
+    - npm run lint
+test:
+  image: node:20
+  stage: test
+  before_script: 
+  - npm install 
+  script:
+    - npm test
+build:
+  image: node:20
+  stage: build
+  before_script: 
+  - npm install
+  - echo "VITE_API_URL=${VITE_API_URL}" > .env
+  - echo "VITE_GOOGLE_MAPS_API_KEY=${VITE_GOOGLE_MAPS_API_KEY}" >> .env
+  - cat .env
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist
+deploy:
+  stage: deploy
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
+  script:
+    - echo $
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws s3 cp dist/ s3://$AWS_S3_BUCKET --recursive
+  only: 
+    - main
+success_notification:
+  image: alpine:latest
+  stage: notification
+  script:
+    - apk add --update git curl
+    - wget https://raw.githubusercontent.com/DiscordHooks/gitlab-ci-discord-webhook/master/send.sh
+    - chmod +x send.sh
+    - /bin/ash ./send.sh success $WEBHOOK_URL
+  when: on_success
+failure_notification:
+  image: alpine:latest
+  stage: notification
+  script:
+    - apk add --update git curl
+    - wget https://raw.githubusercontent.com/DiscordHooks/gitlab-ci-discord-webhook/master/send.sh
+    - chmod +x send.sh
+    - /bin/ash ./send.sh failure $WEBHOOK_URL
+  when: on_failure
